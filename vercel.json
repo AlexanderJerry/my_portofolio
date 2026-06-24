@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/index.php",
-      "use": "vercel-php@0.6.0"
-    }
-  ],
+  "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.6.0" }
+  },
   "routes": [
     {
       "src": "/(.*)",
@@ -15,6 +12,6 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://my-portofolio-woad-omega.vercel.app"
+    "APP_URL": "https://my-portofolio-2h5n.vercel.app"
   }
 }

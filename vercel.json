@@ -15,6 +15,6 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://namamu.vercel.app"
+    "APP_URL": "https://my-portofolio-woad-omega.vercel.app"
   }
 }
